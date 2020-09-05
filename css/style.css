@@ -560,6 +560,38 @@ h1, h2, h3, h4, h5,
     padding-bottom: 10px !important; }
 
 /* Blocks */
+/*rajesh*/
+.intro-section-logo {
+  background-size: 100% 100%;
+  position: relative; }
+  .intro-section-logo, .intro-section .container .row {
+    height: 100vh;
+    min-height: 900px; }
+  .intro-section-logo:before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: #222;
+    opacity: .7;
+    border-bottom-right-radius: 0px;
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat; }
+    @media (max-width: 991.98px) {
+      .intro-section-logo:before {
+        width: 100%; } }
+  .intro-section-logo h1 {
+    font-size: 7rem;
+    font-weight: 900;
+    color: #fff; }
+  .intro-section-logo p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.1rem;
+    max-width: 400px; }
+
+
+
 .intro-section {
   background-size: cover;
   position: relative; }
